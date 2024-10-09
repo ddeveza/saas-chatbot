@@ -1,0 +1,72 @@
+{
+  "editor.formatOnSave": true,
+  "prettier.tabWidth": 2,
+  "editor.bracketPairColorization.enabled": true,
+  "workbench.colorTheme": "Monokai Pro (Filter Machine)",
+  "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "prettier.printWidth": 200,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "syntax.highlightTerms": [
+    "type",
+    "scope",
+    "function",
+    "variable",
+    "number",
+    "string",
+    "comment",
+    "constant",
+    "directive",
+    "control",
+    "operator",
+    "modifier",
+    "punctuation"
+  ],
+  "redhat.telemetry.enabled": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "gitlens.views.contributors.showAllBranches": true,
+  "workbench.colorCustomizations": {
+    "editorIndentGuide.activeBackground1": "#00ff04"
+  },
+  "html.completion.attributeDefaultValue": "singlequotes",
+  "html.format.contentUnformatted": "",
+  "vsicons.dontShowNewVersionMessage": true,
+  "html.autoCreateQuotes": true,
+  "visualforce.suggest.html5": false,
+  "editor.autoClosingOvertype": "never",
+  "editor.autoSurround": "never",
+  "prettier.quoteProps": "consistent",
+  "prettier.jsxSingleQuote": true,
+  "git.confirmSync": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.minimap.enabled": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+  "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+  "html.format.wrapAttributes": "force",
+  "prettier.singleAttributePerLine": true,
+  "gitlens.views.showRelativeDateMarkers": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "prisma.showPrismaDataPlatformNotification": false,
+  "liveServer.settings.donotVerifyTags": true,
+  "[scss]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "editor.fontFamily": "JetBrains Mono, Menlo, Monaco, 'Courier New', monospace"
+}
