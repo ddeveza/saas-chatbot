@@ -7,7 +7,9 @@ function Signup({}: Props) {
   return (
     <div className="debug-green w-full flex-1 py-36 md:px-16">
       <div className="flex h-full flex-col gap-3">
-        <SignupFormProvider>Test</SignupFormProvider>
+        <SignupFormProvider>
+          <div className="flex flex-col gap-3"></div>
+        </SignupFormProvider>
       </div>
     </div>
   );
