@@ -17,13 +17,13 @@ export default async function Layout({
     <div className="flex h-screen w-full justify-center">
       <div className="flex w-[600px] flex-col items-start p-6 lg:w-full">
         <Image
+          width={0}
+          alt="LOGO"
+          height={0}
+          sizes="100vw"
           className="debug-red"
           src="/images/logo.png"
-          sizes="100vw"
-          height={0}
-          alt="LOGO"
-          width={0}
-          style={{ height: "auto", width: "20%" }}
+          style={{ width: "20%", height: "auto" }}
         />
         {children}
         <div className="max-w-4000px bg-cream relative hidden max-h-full w-full flex-1 flex-col gap-3 overflow-hidden pl-24 pt-10 lg:flex">
@@ -37,12 +37,12 @@ export default async function Layout({
           </p>
           <Image
             width={0}
-            className="absolute top-48 !w-[1600px] shrink-0"
-            src="/images/app-ui.png"
-            alt="app image"
-            loading="lazy"
             sizes="30"
             height={0}
+            loading="lazy"
+            alt="app image"
+            src="/images/app-ui.png"
+            className="absolute top-48 !w-[1600px] shrink-0"
           />
         </div>
       </div>

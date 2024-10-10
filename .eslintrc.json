@@ -3,5 +3,45 @@
     "next/core-web-vitals",
     "next/typescript",
     "plugin:perfectionist/recommended-line-length-legacy"
-  ]
+  ],
+  "plugins": ["perfectionist"],
+  "rules": {
+    "perfectionist/sort-jsx-props": [
+      "error",
+      {
+        "type": "line-length",
+        "order": "asc",
+        "groups": ["multiline", "shorthand", "unknown"]
+      }
+    ],
+    "perfectionist/sort-interfaces": [
+      "error",
+      {
+        "type": "line-length",
+        "order": "asc"
+      }
+    ],
+    "perfectionist/sort-object-types": [
+      "error",
+      {
+        "type": "line-length",
+        "order": "asc"
+      }
+    ],
+    "perfectionist/sort-astro-attributes": [
+      "error",
+      {
+        "type": "line-length",
+        "order": "asc",
+        "groups": ["multiline", "shorthand", "unknown"]
+      }
+    ],
+    "perfectionist/sort-objects": [
+      "error",
+      {
+        "type": "line-length",
+        "order": "asc"
+      }
+    ]
+  }
 }
