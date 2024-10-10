@@ -3,7 +3,7 @@
   "prettier.tabWidth": 2,
   "editor.bracketPairColorization.enabled": true,
   "workbench.colorTheme": "Monokai Pro (Filter Machine)",
-  "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons",
+  "workbench.iconTheme": "vscode-icons",
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
