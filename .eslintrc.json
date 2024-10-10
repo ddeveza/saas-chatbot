@@ -1,3 +1,7 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript", "plugin:perfectionist/recommended-line-length-legacy"]
+  "extends": [
+    "next/core-web-vitals",
+    "next/typescript",
+    "plugin:perfectionist/recommended-line-length-legacy"
+  ]
 }
